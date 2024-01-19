@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB EVENTOS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="/img/victori.png" alt="Logo de la marca">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Publica tus eventos</a></li>
+                <li><a href="#">Registrate</a></li>
+                <li><a href="#">Contacta</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn"><button>ES</button></a>
+    </header>
+    <main class="fondo">
+        <img src="./img/inicofondo.jpg" class="imagen-fondo" alt="imagen fondo">
+    </main>
+    <section>
+        <div class="contenedor-categoria">
+            <button class="btn-azul">DESTACADOS</button>
+            <button class="btn-azul">RECOMENDADOS</button>
+            <button class="btn-azul">LOS MAS BUSCADOS</button>
+        </div>
+    </section>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Busqueda">
+        <button class="search-button">Buscar</button>
+        
+        <div class="category-buttons">
+            <button class="category-button" onclick="filterItems('category1')">CATEGORIAS</button>
+            <button class="category-button" onclick="filterItems('category2')">UBICACIONES</button>
+            <button class="category-button" onclick="filterItems('category3')">FECHA</button>
+            <button class="category-button" onclick="filterItems('category3')">PRECIO</button>
+          </div>
+          <div class="filter-area">
+            <div class="filtered-item category1">Elemento 1 (Categoría 1)</div>
+            <div class="filtered-item category2">Elemento 2 (Categoría 2)</div>
+            <div class="filtered-item category3">Elemento 3 (Categoría 3)</div>
+          </div>
+
+      
+   
+    </div>
+    <section>
+        <div class="contenedor-cards">
+            <div class="cards">
+                <img src="img/romeo.jpg" alt="romeosantos">
+                <div class="Contenido">
+                    <h3>ROMEO SANTOS</h3>
+                    <p>PUEBLO ESPAÑOL</p>
+                </div>
+            </div>
+                <div class="cards">
+                    <img src="img/karol.jpg" alt="karolg">
+                    <div class="Contenido">
+                        <h3>KAROL G</h3>
+                        <p>PUEBLO ESPAÑOL</p>
+                    </div>
+                </div>
+                    <div class="cards">
+                        <img src="img/feid.webp" alt="feid">
+                        <div class="Contenido">
+                            <h3>FEID</h3>
+                            <p>PUEBLO ESPAÑOL</p>
+                        </div>
+                    </div>
+                        <div class="cards">
+                            <img src="img/camilo-t.jpg" alt="camilo">
+                            <div class="Contenido">
+                                <h3>CAMILO</h3>
+                                <p>PUEBLO ESPAÑOL</p>
+                            </div>
+                        </div>
+                            <div class="cards">
+                                <img src="img/camila.jpg" alt="camila">
+                                <div class="Contenido">
+                                    <h3>CAMILA</h3>
+                                    <p>PUEBLO ESPAÑOL</p>
+                                </div>
+                            </div>
+                                <div class="cards">
+                                    <img src="img/SIN_BANDERA.jpg" alt="sinbandera">
+                                    <div class="Contenido">
+                                        <h3>SIN BANDERA</h3>
+                                        <p>PUEBLO ESPAÑOL</p>
+                                    </div>
+
+    </section>
+</body>
+
+</html>

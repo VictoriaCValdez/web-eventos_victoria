@@ -1,0 +1,40 @@
+{
+    "results": [
+        {
+            "imagen": "C:/Users/victo/Desktop/web-ventos_victoria/img/romeo.jpg",
+            "nombre": "ROMEO SANTOS",
+            "ubicacion": "Pueblo Español",
+            "fecha": "VIE-02-ABRIL-2024"
+        },
+        {
+            "imagen": "C:/Users/victo/Desktop/web-ventos_victoria/img/karol.jpg",
+            "nombre": "KAROL G",
+            "ubicacion": "Pueblo Español",
+            "fecha": "VIE-02-FEB-2024"
+        },
+        {
+            "imagen": "C:/Users/victo/Desktop/web-ventos_victoria/img/feid.webp",
+            "nombre": "FEID",
+            "ubicacion": "Pueblo Español",
+            "fecha": "VIE-01-MAY-2024"
+        },
+        {
+            "imagen": "C:/Users/victo/Desktop/web-ventos_victoria/img/camilo-t.jpg",
+            "nombre": "CAMILO",
+            "ubicacion": "Pueblo Español",
+            "fecha": "VIE-03-JUN-2024"
+        },
+        {
+            "imagen": "C:/Users/victo/Desktop/web-ventos_victoria/img/camila.jpg",
+            "nombre": "CAMILA",
+            "ubicacion": "Pueblo Español",
+            "fecha": "VIE-04-JUL-2024"
+        },
+        {
+            "imagen": "C:/Users/victo/Desktop/web-ventos_victoria/img/SIN_BANDERA.jpg",
+            "nombre": "SIN BANDERA",
+            "ubicacion": "Pueblo Español",
+            "fecha": "VIE-25-AGOST-2024"
+        }
+    ]
+}
